@@ -1,0 +1,196 @@
+body,html{
+    padding:0px;
+	margin: 0px;
+	font-family: "Tahoma";
+}
+
+#logo{
+    float: left;
+    padding-left: 10%;
+}
+
+#menu{
+    font-family: "Arial";
+    width: 80%;
+    padding: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+    background-color: black;
+}
+
+#menu a{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    width: 110px;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: #737373;
+}
+
+#header1{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/background.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: center;
+}
+
+#header2{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/profile_header.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: 0 -18em;
+}
+
+#header3{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/contact_header.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: 0 -18em;
+}
+
+#headermusic{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/road.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: 0 -12em;
+}
+
+#headergames{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/dark\ sky.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: 0 -12em;
+}
+
+#headermovies{
+    color: #ddd;
+    padding: 10px;
+    text-align: left;
+    height: 350px;
+    background: url(images/rocket.jpg) no-repeat fixed 0 0;
+    background-size: 100%;
+    background-position: 0 -12em;
+}
+
+.head{
+    padding-left: 170px;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
+    color: white;
+}
+
+.content{
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+.content p{
+    text-align: justify;
+    line-height: 1.5;
+}
+#footer{
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+}
+
+.music {
+    position: relative;
+    width: 60%;
+  }
+
+.games {
+    position: relative;
+    width: 50%;
+  }
+
+.movies {
+    position: relative;
+    width: 50%;
+  }
+
+.image {
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.music:hover .image {
+    opacity: 0.3;
+  }
+  
+.music:hover .middle {
+    opacity: 1;
+  }
+
+.games:hover .image {
+    opacity: 0.3;
+  }
+  
+.games:hover .middle {
+    opacity: 1;
+  }
+
+.movies:hover .image {
+    opacity: 0.3;
+  }
+  
+.movies:hover .middle {
+    opacity: 1;
+  }
+
+.text a{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+.text a:hover{
+    color: #737373;
+  }
+
+#topper:hover{
+    cursor: pointer;
+}
